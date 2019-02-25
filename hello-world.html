@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<title>Hello...</title>
+<style type="text/css">
+#mainContent {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+	font-weight: bold;
+	background-color: #FF00FF;
+	border-radius: 4px;
+	padding: 10px;
+	text-align: center;
+}
+.buttonStyle {
+	border-radius: 4px;
+	border: thin solid #FF00FF;
+	padding: 5px;
+	background-color: #00ffff;
+	font-family: "Segoe UI", Tahoma, orbitron, Verdana, sans-serif;
+	font-weight: bold;
+	color: #FFffff;
+	width: 75px;
+}
+
+.buttonStyle:hover {
+	border: thin solid #FF00FF;
+	background-color: #FF00FF;
+	color: #FF00FF;
+	cursor: pointer;
+}
+.buttonStyle:active {
+	border: thin solid #FF00FF;
+	background-color: #FF00FF;
+	color: #FF00FF;
+	cursor: pointer;
+}
+
+</style>
+</head>
+
+<body>
+<div id="mainContent">
+<p id="helloText">?</p>
+<button id="clickButton" class="buttonStyle">click me</button>
+</div>
+<script> 
+var myButton = document.getElementById("clickButton");
+var myText = document.getElementById("helloText");
+
+myButton.addEventListener('click', doSomething, false)
+
+function doSomething() {
+	myText.textContent = "hello, world!";
+}
+</script>
+
+</body>
+</html>

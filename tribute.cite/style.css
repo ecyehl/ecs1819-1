@@ -18,9 +18,9 @@ button {
     background-color: red;
     color:white; 
 }
-.carousel-control-next {
-    background-color: red;
+.carousel-control-next-icon {
+    background-color: #f00;
 }
-.carousel-control-prev {
+.carousel-control-prev-icon {
     background-color: red;
 }

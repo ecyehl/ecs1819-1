@@ -7,5 +7,18 @@ button {
     color: white;
 }
 .image1 {
-    width:700px;
+    width:800px;
+}
+#jumbotron2 {
+    background-image: url(http://www.keepaustingreen.com/wp-content/uploads/2015/08/fall-tree-preparation.jpg)
+}
+#nbe {
+    width:500px;
+    border-radius: 50%
+}
+h1 {
+    font-family: fantasy;
+}
+#jumbotron3 {
+    background-image: url(https://imtwellnesscenter.com/wp-content/uploads/2014/10/purple-tree.png);
 }

@@ -3,9 +3,19 @@
     background-image: url(images3/football.png);
 }
 img {
-    width:1000px;
+    width:500px;
 }
 #other-jumbo {
     background-image: url(https://media.comicbook.com/2017/08/amazon-sale-1015149.jpg);
+    color:white;
+}
+.img2 {
+    width:700px;
+}
+p {
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+button {
+    background-color:black;
     color:white;
 }

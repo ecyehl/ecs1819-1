@@ -4,18 +4,18 @@ img {
 }
 
 body {
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }
 .cardsssss {
     color:red;
 }
 .jumbotron {
-    background-color:blue;
-    color:orange;
+    background-color:#000;
+    color:#fff;
 }
 button {
-    background-color: red;
+    background-color: black;
     color:white; 
 }
 .carousel-control-next-icon {

@@ -3,8 +3,8 @@
     color:white;
 }
 button {
-    background-color: black;
-    color: white;
+    background-color:#444;
+    color: red;
 }
 .image1 {
     width:800px;
@@ -14,7 +14,8 @@ button {
 }
 #nbe {
     width:500px;
-    border-radius: 50%
+    border:double;
+    border-width: 10px;
 }
 h1 {
     font-family: fantasy;
@@ -24,4 +25,10 @@ h1 {
 }
 p {
     font-family: 'Srisakdi', cursive;
+}
+.navbar {
+    background-color:#444;
+}
+#nv {
+    color:red;
 }

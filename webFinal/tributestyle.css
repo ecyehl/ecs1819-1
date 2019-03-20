@@ -15,12 +15,18 @@ body {
     color:#fff;
 }
 button {
-    background-color: black;
-    color:white; 
+    background-color:#444;
+    color: red;
 }
 .carousel-control-next-icon {
     background-color: #f00;
 }
 .carousel-control-prev-icon {
     background-color: red;
+}
+.navbar {
+    background-color:#444;
+}
+#nv {
+    color:red;
 }

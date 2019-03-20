@@ -16,6 +16,12 @@ p {
     font-family: 'ZCOOL XiaoWei', serif;
 }
 button {
-    background-color:black;
-    color:white;
+    background-color:#444;
+    color: red;
+}
+.navbar {
+    background-color:#444;
+}
+#nv {
+    color:red;
 }
